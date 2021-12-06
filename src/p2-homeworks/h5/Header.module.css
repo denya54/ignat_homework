@@ -1,0 +1,30 @@
+.link{
+    text-decoration: none;
+    color: black;
+    margin: 5px;
+}
+.link:hover{
+    color: greenyellow;
+}
+.activeLink{
+color: forestgreen;
+}
+
+.block{
+    width: 25px;
+    height: 25px;
+    margin: 10px;
+    background: crimson;
+}
+
+.header{
+    display: flex;
+    width: 300px;
+    transform: translate(-230px);
+    transition-duration: 700ms;
+}
+
+.header:hover{
+    transform: translate(0);
+    transition-duration: 700ms;
+}
