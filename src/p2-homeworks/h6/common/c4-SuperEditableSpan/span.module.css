@@ -1,0 +1,12 @@
+.span {
+    color: blue;
+    display: inline-block;
+    padding-top: 10px;
+    height: 31px;
+    cursor: pointer;
+}
+
+.picture {
+    width: 20px;
+    height: 20px;
+}
