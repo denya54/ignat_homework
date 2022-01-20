@@ -61,8 +61,7 @@ export const SuperRange2 = (props: SuperRange2PropsType) => {
             type={'range'}
             value={props.value}
             onChange={onChangeCallback}
-            width={'300px'}
-             // className={finalRangeClassName}
+            className={s.range}
         />
     </>
 }

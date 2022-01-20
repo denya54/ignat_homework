@@ -9,11 +9,6 @@ function HW11() {
     const changeValue1 = (value: number) => setValue1(value)
     const changeValue2 = (value: number) => setValue2(value)
 
-
-    // let func = (value: [number, number]) => {
-    //     setValue1(value[0])
-    //     setValue2(value[1])
-    // }
     return (
         <div>
             <hr/>
@@ -21,14 +16,12 @@ function HW11() {
 
             {/*should work (должно работать)*/}
             <div>
-                <span>{value1}</span>
+                <div>{value1}</div>
 
                 <SuperRange2
                   value={value1}
                   onChangeRange={setValue1}
                 />
-
-
                 {/*<SuperRange*/}
                 {/*    onChangeRange={setValue1}*/}
                 {/*    // сделать так чтоб value1 изменялось*/}
