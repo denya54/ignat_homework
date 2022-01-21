@@ -1,7 +1,6 @@
 .dark {
     background: dimgrey;
 }
-
 .dark-text {
     color: aliceblue;
 }
@@ -9,7 +8,6 @@
 .red {
     background: lightcoral;
 }
-
 .red-text {
     color: aqua;
 }
@@ -17,7 +15,20 @@
 .some {
     background: lightgreen;
 }
-
 .some-text {
     color: darkslateblue;
+}
+
+.blue {
+    background: blue;
+}
+.blue-text {
+    color: white;
+}
+
+.pink {
+    background: pink;
+}
+.pink-text {
+    color: black;
 }
